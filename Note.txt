@@ -1,0 +1,9 @@
+SpaceX Website Clone - HTML, CSS & JavaScript (https://www.youtube.com/watch?v=wryPX7KSwSc)
+
+https://traversydemo.dev/
+https://www.spacex.com/
+
+https://github.com/bradtraversy/spacex-website
+https://github.com/Annie-Huang/spacex-website
+
+------------------------------------------------------------------------------------
