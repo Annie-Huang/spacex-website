@@ -104,12 +104,21 @@ section {
   font-size: 22px;
   margin-bottom: 5px;
   font-weight: 300;
+
+  animation: fadeInUp 0.5s ease-in-out;
 }
 
 .section-inner h2 {
   font-size: 50px;
   font-weight: 700;
   margin-bottom: 20px;
+
+  /* The 0.2s is the delay */
+  animation: fadeInUp 0.5s ease-in-out 0.2s;
+}
+
+.section-inner a {
+  animation: fadeInUp 0.5s ease-in-out 0.4s;
 }
 
 /* Background images */
@@ -147,4 +156,17 @@ section {
 }
 .btn:hover .hover {
   transform: translateY(0);
+}
+
+/* Animations */
+
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(140px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
