@@ -131,3 +131,13 @@ section {
   overflow: hidden;
   z-index: 2;
 }
+.btn:hover span {
+  color: #000;
+}
+.btn .hover {
+  position: absolute;
+  inset: 0;
+  background-color: #fff;
+  color: #000;
+  z-index: -1;
+}
