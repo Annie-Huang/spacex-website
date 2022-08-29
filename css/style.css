@@ -115,10 +115,17 @@ section {
 
   /* The 0.2s is the delay */
   animation: fadeInUp 0.5s ease-in-out 0.2s;
+
+  /* Watch this: CSS Animation Tutorial #5 - Animation Fill Mode: https://www.youtube.com/watch?v=irJXZnA3g5U
+     In our case, it means as soon as it start, jump to the first frame at 0%, which means the element disappear
+     then after the delay, do the transition to frame at 100%. And then stay in the forard mode.
+  */
+  animation-fill-mode: both; /* Stop from showing at start of the animation */
 }
 
 .section-inner a {
   animation: fadeInUp 0.5s ease-in-out 0.4s;
+  animation-fill-mode: both; /* Stop from showing at start of the animation */
 }
 
 /* Background images */
