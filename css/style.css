@@ -49,3 +49,27 @@ ul {
   width: 100%;
   height: auto;
 }
+
+/* Desktop Menu */
+.desktop-main-menu {
+  margin-right: 50px;
+}
+.desktop-main-menu ul {
+  display: flex;
+}
+.desktop-main-menu ul li {
+  position: relative;
+  margin-right: 20px;
+  padding-bottom: 2px; /* space between the text and line (in hover) status */
+}
+
+/* Menu item bottom border */
+.desktop-main-menu ul li a::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 1px;
+  background: #fff;
+}
