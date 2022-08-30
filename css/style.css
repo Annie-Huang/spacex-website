@@ -165,6 +165,13 @@ section {
   transform: translateY(0);
 }
 
+.scroll-arrow {
+  position: absolute;
+  bottom: 50px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
 /* Animations */
 
 @keyframes fadeInUp {
