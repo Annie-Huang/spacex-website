@@ -199,9 +199,9 @@ footer ul {
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  gap: 30px;
 }
 footer ul li {
+  margin-right: 30px;
   color: #aaa;
   text-transform: uppercase;
   font-size: 13px;
@@ -240,5 +240,36 @@ footer ul li a:hover {
   40% {
     opacity: 1;
     transform: translateY(0);
+  }
+}
+
+/* Media Queries */
+@media (max-width: 960px) {
+  /* Hide desktop menu */
+  .desktop-main-menu {
+    display: none;
+  }
+}
+
+@media (max-width: 600px) {
+  .section-inner {
+    bottom: 75px;
+    left: 20px;
+  }
+  .section-inner h2 {
+    font-size: 40px;
+  }
+  footer ul li:first-child {
+    position: absolute;
+    top: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  footer ul li {
+    margin-right: 15px;
+  }
+  .logo {
+    width: 150px;
+    margin: auto;
   }
 }
