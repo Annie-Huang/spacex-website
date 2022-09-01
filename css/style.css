@@ -270,8 +270,14 @@ footer ul li a:hover {
   z-index: 3;
 }
 
+/* Stop body scroll */
 .stop-scrolling {
   overflow: hidden;
+}
+
+/* Hide mobile main menu items */
+.mobile-only {
+  display: none;
 }
 
 /* Animations */
@@ -307,6 +313,11 @@ footer ul li a:hover {
   /* Hide desktop menu */
   .desktop-main-menu {
     display: none;
+  }
+
+  /* Show main mobile items */
+  .mobile-only {
+    display: block;
   }
 }
 
