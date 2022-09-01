@@ -312,6 +312,14 @@ footer ul li a:hover {
   padding-bottom: 8px;
 }
 
+.mobile-main-menu ul li a {
+  color: #fff;
+  transition: color 0.6s;
+}
+.mobile-main-menu ul li a:hover {
+  color: #aaa;
+}
+
 /* Animations */
 
 @keyframes fadeInUp {
