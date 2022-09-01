@@ -280,6 +280,17 @@ footer ul li a:hover {
   display: none;
 }
 
+/* Mobile menu */
+.mobile-main-menu {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 350px;
+  height: 100%;
+  background: #000;
+  z-index: 4;
+}
+
 /* Animations */
 
 @keyframes fadeInUp {
