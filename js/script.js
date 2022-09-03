@@ -2,6 +2,7 @@ const btn = document.getElementById('menu-btn');
 const overlay = document.getElementById('overlay');
 const menu = document.getElementById('mobile-menu');
 const counters = document.querySelectorAll('.counter');
+let scrollStarted = false;
 
 btn.addEventListener('click', navToggle);
 document.addEventListener('scroll', scrollPage);
@@ -16,10 +17,12 @@ function navToggle() {
 function scrollPage() {
   const scrollPos = window.scrollY;
 
-  if (scrollPos > 100) {
+  if (scrollPos > 100 && !scrollStarted) {
     countUp();
-  } else if (scrollPos < 100) {
+    scrollStarted = true;
+  } else if (scrollPos < 100 && scrollStarted) {
     reset();
+    scrollStarted = false;
   }
 }
 
