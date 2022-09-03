@@ -346,6 +346,13 @@ footer ul li a:hover {
 .section-inner-center h3 {
   font-size: 100px;
   margin-bottom: 15px;
+
+  animation: fadeInUp 0.5s ease-in-out;
+}
+.section-inner-center p {
+  font-size: 20px;
+
+  animation: fadeInUp 0.5s ease-in-out 0.2s;
 }
 
 /* Animations */
