@@ -18,6 +18,8 @@ function scrollPage() {
 
   if (scrollPos > 100) {
     countUp();
+  } else if (scrollPos < 100) {
+    reset();
   }
 }
 
@@ -48,4 +50,8 @@ function countUp() {
 
     updateCounter();
   });
+}
+
+function reset() {
+  counters.forEach((counter) => (counter.innerHTML = '0'));
 }
