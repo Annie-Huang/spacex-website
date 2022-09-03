@@ -327,6 +327,15 @@ footer ul li a:hover {
   color: #aaa;
 }
 
+/* Inner Pages */
+.bg-falcon-9 {
+  background-image: url('../img/falcon-9.webp');
+}
+
+.section-animate {
+  animation: fadeIn 2s ease-in-out;
+}
+
 /* Animations */
 
 @keyframes fadeInUp {
@@ -337,6 +346,15 @@ footer ul li a:hover {
   100% {
     opacity: 1;
     transform: translateY(0);
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
   }
 }
 
