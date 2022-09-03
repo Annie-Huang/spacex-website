@@ -335,6 +335,18 @@ footer ul li a:hover {
 .section-animate {
   animation: fadeIn 2s ease-in-out;
 }
+.section-inner-center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-transform: uppercase;
+  text-align: center;
+}
+.section-inner-center h3 {
+  font-size: 100px;
+  margin-bottom: 15px;
+}
 
 /* Animations */
 
