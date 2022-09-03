@@ -9,3 +9,5 @@ https://github.com/Annie-Huang/spacex-website
 Watch this: CSS Animation Tutorial #5 - Animation Fill Mode: https://www.youtube.com/watch?v=irJXZnA3g5U
 -----------------------------------------------------------------------------------------------------------
 https://fonts.google.com/specimen/Familjen+Grotesk?query=grotesk
+
+Can only click on the first 3 menus.
